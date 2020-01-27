@@ -4,6 +4,8 @@ hr {
     border-radius: 5px;
     color: #fff; 
     background-color: #fff;
+    /* position: relative;
+    bottom: 100px; */
 }
 
 
@@ -17,7 +19,7 @@ ul {
 }
 
 .container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 15%;
     margin-right: 15%;
     object-fit: contain;
@@ -25,16 +27,21 @@ ul {
 }
 
 .header {
+    /* height: 100px; */
     
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .header-images {
-    border: 2px solid blue;
-    width: 25%;
+    /* border: 2px solid blue; */
+    width: 100%;
     position: relative;
-    float: right;
-    bottom: 120px;
+    /* float: right; */
+    /* bottom: 120px; */
+    /* left: 100px; */
+    bottom: 140px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .paragraphs {
@@ -47,11 +54,14 @@ ul {
     text-align: center;
 }
 
+.those-icons {
+    margin: 1px;
+}
 
 #top-left-image {
-    position: absolute;
-    top: 60px;
-    left: 265px;
+    position: relative;
+    top: -100px;
+    left: 2px;
 }
 
 #title {
@@ -64,24 +74,23 @@ ul {
     position: relative;
     top: -35px;
     left: 50px;
-
+}
 
 #choco-pizza {
     margin: 0 auto;
-    width: 100%;
-    
+    width: 100%; 
 }
 
 #p-1 {
-    text-indent: 10%;
+    text-indent: 4%;
 }
 
 #p-2 {
-    text-indent: 10%;
+    text-indent: 4%;
 }
 
 #p-3 {
-    text-indent: 10%;
+    text-indent: 4%;
 
 }
 
@@ -134,5 +143,19 @@ ul {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    position: relative;
+    bottom: 130px;
+    left: 975px;
   }
 
+#about-me {
+      position: relative;
+      bottom: 80px;
+      left: 80px;
+  }
+
+  #bio {
+      position: relative;
+      bottom: 80px;
+      left: 80px;
+  }
