@@ -1,0 +1,17 @@
+#title {
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 40px;
+    /* padding: 1cm; */
+}
+
+#subtitle {
+    font-size: 8px;
+    /* padding: 1cm; */
+}
+
+hr {
+    border: 1px dotted #ff0000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+}
