@@ -1,3 +1,32 @@
+hr {
+    border: 1px dotted #ff0000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+}
+
+ul { 
+    display: inline-block; 
+    line-height: 31px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.section-2 {
+    position: relative;
+    text-align: center;
+}
+
+#sticky-list {
+    position: absolute;
+    
+    /*border: 1px solid black;*/
+    bottom: 90px;
+    left: 70px;
+    width: 850px;
+    height: 200px;
+}
+
 #title {
     font-family: 'Bowlby One SC', cursive;
     font-size: 40px;
@@ -7,11 +36,4 @@
 #subtitle {
     font-size: 8px;
     /* padding: 1cm; */
-}
-
-hr {
-    border: 1px dotted #ff0000;
-    border-style: none none dotted; 
-    color: #fff; 
-    background-color: #fff;
 }
