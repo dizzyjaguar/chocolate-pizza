@@ -37,3 +37,34 @@ ul {
     font-size: 8px;
     /* padding: 1cm; */
 }
+
+
+hr {
+    border: 4.5px dashed rgb(128, 120, 120);
+    border-style: dashed; 
+    color: #fff; 
+    background-color: #fff;
+}
+
+#section-1-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+#last-line-break {
+    border: 1.2px double rgb(128, 120, 120);
+    border-style: dotted; 
+    color: #fff; 
+    background-color: #fff;
+}
+
+#share-button {
+    background-color: rgb(230, 148, 42); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
