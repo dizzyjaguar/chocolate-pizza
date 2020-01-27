@@ -8,3 +8,10 @@
     font-size: 8px;
     /* padding: 1cm; */
 }
+
+hr {
+    border: 1px dotted #ff0000;
+    border-style: none none dotted; 
+    color: #fff; 
+    background-color: #fff;
+}
