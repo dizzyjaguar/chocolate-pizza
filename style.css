@@ -1,6 +1,6 @@
 hr {
-    border: 1px dotted #ff0000;
-    border-style: none none dotted; 
+    border: 4.5px dashed rgb(128, 120, 120);
+    border-style: dashed; 
     color: #fff; 
     background-color: #fff;
 }
@@ -10,6 +10,14 @@ ul {
     line-height: 31px;
     margin-left: 70px;
     margin-right: 70px;
+}
+
+.container {
+    border: 1px solid green;
+    margin-left: 15%;
+    margin-right: 15%;
+    object-fit: contain;
+    padding: 5px;
 }
 
 .section-2 {
@@ -36,14 +44,6 @@ ul {
 #subtitle {
     font-size: 8px;
     /* padding: 1cm; */
-}
-
-
-hr {
-    border: 4.5px dashed rgb(128, 120, 120);
-    border-style: dashed; 
-    color: #fff; 
-    background-color: #fff;
 }
 
 #section-1-title {
